@@ -7,7 +7,9 @@ name: compta
 
 services:
   db:
-    image: postgres:16-alpine
+    build:
+      context: .
+      dockerfile: db.Dockerfile       # scripts d'init embarqués (bind-mount interdit par Portainer)
     restart: unless-stopped
     environment:
       POSTGRES_DB: ${DB_NAME:-compta}
@@ -19,7 +21,6 @@ services:
       PGTZ: ${TZ:-Africa/Douala}
     volumes:
       - db_data:/var/lib/postgresql/data
-      - ./initdb:/docker-entrypoint-initdb.d:ro   # exécuté une seule fois, au tout premier démarrage
     networks: [internal]
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
