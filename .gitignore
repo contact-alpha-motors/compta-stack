@@ -1,0 +1,22 @@
+# Secrets & environnement — NE JAMAIS committer
+.env
+.env.*
+!.env.example
+
+# Données locales / volumes montés
+data/
+inbox/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

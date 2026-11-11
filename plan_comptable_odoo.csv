@@ -1,0 +1,1141 @@
+﻿Code;Nom du compte;Type de compte;Lettrable
+101100;Uncalled committed capital;equity;Non
+101200;Capital subscribed, called, not paid;equity;Non
+101300;Capital subscribed, called, paid, unamortized;equity;Non
+101400;Capital subscribed, called, paid, amortized;equity;Non
+101800;Subscribed capital subject to specific conditions;equity;Non
+102100;Initial endowment;equity;Non
+102200;Additional allocations;equity;Non
+102800;Other endowments;equity;Non
+103000;Personal capital;equity;Non
+104100;Temporary contributions;equity;Non
+104200;Common operations;equity;Non
+104300;Remuneration, taxes and other personal charges;equity;Non
+104700;Self-consumption withdrawals;equity;Non
+104800;Other levies;equity;Non
+105100;Issuance premiums;equity;Non
+105200;Contribution premiums;equity;Non
+105300;Merger bonuses;equity;Non
+105400;Conversion bonuses;equity;Non
+105800;Other bonuses;equity;Non
+106100;Legal revaluation differences;equity;Non
+106200;Free revaluation differences;equity;Non
+109000;Contributors, subscribed capital, uncalled;equity;Non
+111000;Legal reserve;equity;Non
+112000;Statutory or contractual reserves;equity;Non
+113100;Long-term net capital gains reserves;equity;Non
+113200;Reserves for free allocation of shares to employees and managers;equity;Non
+113300;Reserves resulting from the granting of investment grants;equity;Non
+113400;Reserves of securities giving access to capital;equity;Non
+113800;Other regulated reserves;equity;Non
+118100;Optional reservations;equity;Non
+118800;Miscellaneous reserves;equity;Non
+121000;Carry forward creditor;equity;Non
+129100;Net loss to be carried forward;equity;Non
+129200;Loss - Amortization deemed deferred;equity;Non
+130100;Result pending allocation: Profit;equity;Non
+130900;Result pending assignment: Loss;equity;Non
+131000;Net income: profit;equity;Non
+132000;Trade margin (tm);equity;Non
+133000;Added value (a.v.);equity;Non
+134000;Gross operating surplus (g.o.s.);equity;Non
+135000;Operating income (o.i.);equity;Non
+136000;Financial result (f.r.);equity;Non
+137000;Income from ordinary activities (i.o.a.);equity;Non
+138100;Merge result;equity;Non
+138200;Result of partial asset contribution;equity;Non
+138300;Split Result;equity;Non
+138400;Liquidation result;equity;Non
+139000;Net income: loss;equity;Non
+141100;Equipment Grant: State;equity;Non
+141200;Equipment Grant: Regions;equity;Non
+141300;Equipment Grant: Departments;equity;Non
+141400;Equipment subsidy: Municipalities and decentralized public authorities;equity;Non
+141500;Equipment Grant: Public or Mixed Entities;equity;Non
+141600;Equipment Grant: Private Entities and Organizations;equity;Non
+141700;Equipment Grant: International Organizations;equity;Non
+141800;Equipment Grant: Others;equity;Non
+148000;Other investment grants;equity;Non
+151000;Accelerated depreciation;liability_current;Non
+152000;Capital gains to reinvest;liability_current;Non
+153100;National Fund;liability_current;Non
+153200;Levy for the Budget;liability_current;Non
+154000;Special revaluation provision;liability_current;Non
+155100;Reconstruction of mining and oil deposits;liability_current;Non
+156100;Regulated provision relating to inventories: Price increase;liability_current;Non
+156200;Regulated provision relating to stocks: Price fluctuation;liability_current;Non
+157000;Provisions for investment;liability_current;Non
+158000;Other regulated provisions and funds;liability_current;Non
+161100;Ordinary bond issues;liability_current;Non
+161200;Bonds convertible into shares;liability_current;Non
+161300;Bonds redeemable in shares;liability_current;Non
+161800;Other bond issues;liability_current;Non
+162000;Loans and debts from credit institutions;liability_current;Non
+163000;Advances received from the state;liability_current;Non
+164000;Advances received and blocked current accounts;liability_current;Non
+165100;Deposit and guarantees received: Deposits;liability_current;Non
+165200;Deposit and guarantees received: Guarantees;liability_current;Non
+166100;Accrued interest on bond issues;liability_current;Non
+166200;Accrued interest on borrowings and debts with credit institutions;liability_current;Non
+166300;Accrued interest on advances received from the State;liability_current;Non
+166400;Accrued interest on advances received and blocked current accounts;liability_current;Non
+166500;Accrued interest on deposits and guarantees received;liability_current;Non
+166700;Accrued interest on advances subject to special conditions;liability_current;Non
+166800;Accrued interest on other borrowings and debts;liability_current;Non
+167100;Advances blocked for capital increase;liability_current;Non
+167200;State Conditional Advances;liability_current;Non
+167300;Advances conditional on other African agencies;liability_current;Non
+167400;Advances conditional on international organizations;liability_current;Non
+168100;Capitalized life annuities for loans and debts;liability_current;Non
+168200;Fund notes for borrowings and debts;liability_current;Non
+168300;Debts resulting from borrowed securities;liability_current;Non
+168400;Equity loans;liability_current;Non
+168500;Employee profit-sharing for loans and debts;liability_current;Non
+168600;Loans and debts contracted with other third parties;liability_current;Non
+172000;Rental-purchase debts / real estate credit-lease;liability_current;Non
+173000;Rental-purchase debts / furniture credit-lease;liability_current;Non
+174000;Lease-purchase / lease-sale debts;liability_current;Non
+176200;Accrued interest on capital lease liabilities / real estate leasing;liability_current;Non
+176300;Accrued interest on capital lease/equipment leasing debts;liability_current;Non
+176400;Interest accrued on lease-purchase / hire-purchase debts;liability_current;Non
+176800;Accrued interest on other capital lease liabilities;liability_current;Non
+178000;Other lease-purchase debts;liability_current;Non
+181100;Debts related to equity interests (group);liability_current;Non
+181200;Debts related to equity interests (outside the group);liability_current;Non
+182000;Debts related to participating companies;liability_current;Non
+183000;Accrued interest on debts related to shareholdings;liability_current;Non
+184000;Blocked permanent accounts of establishments and branches;liability_current;Non
+185000;Unblocked permanent accounts of establishments and branches;liability_current;Non
+186000;Charged liaison accounts;liability_current;Non
+187000;Product link accounts;liability_current;Non
+188000;Liaison accounts of participating companies;liability_current;Non
+191000;Provisions for litigation;liability_current;Non
+192000;Provisions for guarantees given to customers;liability_current;Non
+193000;provisions for losses on future completion markets;liability_current;Non
+194000;Provisions for exchange losses;liability_current;Non
+195000;Provisions for taxes;liability_current;Non
+196100;Provisions for pensions and similar obligations – retirement commitment;liability_current;Non
+196200;Pension plan assets;liability_current;Non
+197000;Provisions for restructuring;liability_current;Non
+198100;Provisions for fines and penalties;liability_current;Non
+198300;Self-insurer provisions;liability_current;Non
+198400;Provisions for dismantling and restoration;liability_current;Non
+198500;Provisions for reduction rights or benefits in kind (gift vouchers, loyalty cards, etc.);liability_current;Non
+198800;Provisions for miscellaneous risks and charges;liability_current;Non
+211000;Development costs;asset_fixed;Non
+212100;Patents;asset_fixed;Non
+212200;Licences;asset_fixed;Non
+212300;Public service concessions;asset_fixed;Non
+212800;Other concessions and similar rights;asset_fixed;Non
+213100;Software;asset_fixed;Non
+213200;Websites;asset_fixed;Non
+214000;Brands;asset_fixed;Non
+215000;Commercial funds;asset_fixed;Non
+216000;Right to lease;asset_fixed;Non
+217000;Creative investments;asset_fixed;Non
+218100;Mineral resource exploration and evaluation costs;asset_fixed;Non
+218200;Costs of obtaining the contract;asset_fixed;Non
+218300;Customer files, notices, newspaper and magazine titles;asset_fixed;Non
+218400;Franchise costs;asset_fixed;Non
+218800;Various intangible rights and values;asset_fixed;Non
+219100;Development costs;asset_fixed;Non
+219300;Software and websites;asset_fixed;Non
+219800;Other intangible rights and values;asset_fixed;Non
+221100;Agricultural land;asset_fixed;Non
+221200;Logging lands;asset_fixed;Non
+221800;Other land;asset_fixed;Non
+222100;Building plots;asset_fixed;Non
+222800;Other bare land;asset_fixed;Non
+223100;Built land for industrial and agricultural buildings;asset_fixed;Non
+223200;Built land for administrative and commercial buildings;asset_fixed;Non
+223400;Built land for buildings assigned to other professional operations;asset_fixed;Non
+223500;Built land for buildings assigned to other non-professional operations;asset_fixed;Non
+223800;Other built land;asset_fixed;Non
+224100;Planting trees and shrubs;asset_fixed;Non
+224500;Fund improvements;asset_fixed;Non
+224800;Other works;asset_fixed;Non
+225100;Careers;asset_fixed;Non
+226100;Parkings;asset_fixed;Non
+227000;Concession lands;asset_fixed;Non
+228100;Land - investment properties;asset_fixed;Non
+228500;Staff housing land;asset_fixed;Non
+228600;Rental land - acquisition;asset_fixed;Non
+228800;Divers terrains;asset_fixed;Non
+229100;Various terrains;asset_fixed;Non
+229200;Bare land for land development in progress;asset_fixed;Non
+229500;Quarry land - subsoil for ongoing land development;asset_fixed;Non
+229800;Other land for ongoing land development;asset_fixed;Non
+231100;Industrial buildings;asset_fixed;Non
+231200;Agricultural buildings;asset_fixed;Non
+231300;Administrative and commercial buildings;asset_fixed;Non
+231400;Buildings used for staff accommodation;asset_fixed;Non
+231500;Buildings - investment properties;asset_fixed;Non
+231600;Rental buildings - acquisition;asset_fixed;Non
+232100;Industrial buildings;asset_fixed;Non
+232200;Agricultural buildings;asset_fixed;Non
+232300;Administrative and commercial buildings;asset_fixed;Non
+232400;Buildings assigned to staff accommodation;asset_fixed;Non
+232500;Buildings - investment properties;asset_fixed;Non
+232600;Rental buildings - acquisition;asset_fixed;Non
+233100;Overland;asset_fixed;Non
+233200;Railway tracks;asset_fixed;Non
+233300;Waterways;asset_fixed;Non
+233400;Dams, Dykes;asset_fixed;Non
+233500;Airfield runways;asset_fixed;Non
+233800;Other infrastructure works;asset_fixed;Non
+234100;Specialized complex installations on clean ground;asset_fixed;Non
+234200;Specialized complex installations on third-party soil;asset_fixed;Non
+234300;Specific installations on clean ground;asset_fixed;Non
+234400;Installations of a specific nature on third-party soil;asset_fixed;Non
+234500;Fixtures and fittings of buildings;asset_fixed;Non
+235100;General facilities;asset_fixed;Non
+235800;Other office layouts;asset_fixed;Non
+237000;Industrial, agricultural and commercial buildings under concession;asset_fixed;Non
+238000;Other facilities and arrangements;asset_fixed;Non
+239100;Buildings in progress;asset_fixed;Non
+239200;Installations in progress;asset_fixed;Non
+239300;Infrastructure works in progress;asset_fixed;Non
+239400;Fittings, fittings and technical installations in progress;asset_fixed;Non
+239500;Office developments in progress;asset_fixed;Non
+239800;Other installations and fittings in progress;asset_fixed;Non
+241100;Industrial material;asset_fixed;Non
+241200;Industrial tools;asset_fixed;Non
+241300;Commercial material;asset_fixed;Non
+241400;Commercial tools;asset_fixed;Non
+241600;Industrial and commercial equipment and tools for rental – acquisition;asset_fixed;Non
+242100;Agricultural material;asset_fixed;Non
+242200;Agricultural tools;asset_fixed;Non
+242600;Rental agricultural equipment and tools – acquisition;asset_fixed;Non
+243000;Recoverable and identifiable packing material;asset_fixed;Non
+244100;Office supplies;asset_fixed;Non
+244200;Hardware;asset_fixed;Non
+244300;Office equipment;asset_fixed;Non
+244400;Office furniture;asset_fixed;Non
+244500;Equipment and furniture - investment properties;asset_fixed;Non
+244600;Rental equipment and furniture - acquisition;asset_fixed;Non
+244700;Staff accommodation equipment and furniture;asset_fixed;Non
+245100;automotive equipment;asset_fixed;Non
+245200;Railway equipment;asset_fixed;Non
+245300;River and lagoon equipment;asset_fixed;Non
+245400;Naval equipment;asset_fixed;Non
+245500;Aerial equipment;asset_fixed;Non
+245600;Rental transport equipment - acquisition;asset_fixed;Non
+245700;Horse-drawn equipment;asset_fixed;Non
+245800;Other transport equipment;asset_fixed;Non
+246100;Livestock, draft animals;asset_fixed;Non
+246200;Livestock, breeding animals;asset_fixed;Non
+246300;Guard animals;asset_fixed;Non
+246500;Agricultural plantations;asset_fixed;Non
+246800;Other biological assets;asset_fixed;Non
+247100;Equipment layouts and fittings;asset_fixed;Non
+247200;Arrangements and fittings of biological assets;asset_fixed;Non
+247800;Other fittings, fittings of biological materials and assets;asset_fixed;Non
+248100;Collections and works of art;asset_fixed;Non
+248800;Various equipment and furniture;asset_fixed;Non
+249100;Industrial and commercial equipment and tools;asset_fixed;Non
+249200;Agricultural equipment and tools;asset_fixed;Non
+249300;Recoverable and identifiable packaging material;asset_fixed;Non
+249400;Office equipment and furniture;asset_fixed;Non
+249500;Transportation equipment;asset_fixed;Non
+249600;Biological assets;asset_fixed;Non
+249700;Fixtures and fittings for equipment and biological assets;asset_fixed;Non
+249800;Other biological materials and assets;asset_fixed;Non
+251000;Advances and deposits paid on intangible assets;asset_fixed;Non
+252000;Advances and deposits paid on property, plant and equipment;asset_fixed;Non
+261000;Investments in entities under exclusive control;asset_fixed;Non
+262000;Investments in jointly controlled entities;asset_fixed;Non
+263000;Investments in entities with significant influence;asset_fixed;Non
+265000;Shareholdings in professional bodies;asset_fixed;Non
+266000;Shares in economic interest groupings (eigs);asset_fixed;Non
+268000;Other equity investments;asset_fixed;Non
+271100;Equity loans;asset_fixed;Non
+271200;Loans to partners;asset_fixed;Non
+271300;Fund Notes;asset_fixed;Non
+271400;Finance lease receivables;asset_fixed;Non
+271500;Securities on loan;asset_fixed;Non
+271800;Other loans and receivables;asset_fixed;Non
+272100;Real estate loans;asset_fixed;Non
+272200;Movable and installation loans;asset_fixed;Non
+272800;Other loans to staff;asset_fixed;Non
+273100;Holdbacks;asset_fixed;Non
+273300;Regulated Fund;asset_fixed;Non
+273400;Receivables from the grantor;asset_fixed;Non
+273800;Other receivables from the State;asset_fixed;Non
+274100;Fixed assets of the portfolio activity (F.A.P.A.);asset_fixed;Non
+274200;Equity securities;asset_fixed;Non
+274300;Investment certificates;asset_fixed;Non
+274400;Mutual fund units (M.F.U.);asset_fixed;Non
+274500;Obligations;asset_fixed;Non
+274600;Own shares or units;asset_fixed;Non
+274800;Other fixed assets;asset_fixed;Non
+275100;Advance Rent Deposits;asset_fixed;Non
+275200;Deposits for electricity;asset_fixed;Non
+275300;Deposits for water;asset_fixed;Non
+275400;Deposits for gas;asset_fixed;Non
+275500;Deposits for telephone, telex, fax;asset_fixed;Non
+275600;Bonds on public contracts;asset_fixed;Non
+275700;Guarantees on other operations;asset_fixed;Non
+275800;Other deposits and guarantees;asset_fixed;Non
+276100;Loans and non-trade receivables;asset_fixed;Non
+276200;Loans to staff;asset_fixed;Non
+276300;Receivables from the State;asset_fixed;Non
+276400;Fixed assets;asset_fixed;Non
+276500;Deposits and guarantees paid;asset_fixed;Non
+276600;Finance lease receivables;asset_fixed;Non
+276700;Receivables related to equity investments;asset_fixed;Non
+276800;Miscellaneous financial assets;asset_fixed;Non
+277100;Receivables from investments (group);asset_fixed;Non
+277200;Receivables related to investments (non-group);asset_fixed;Non
+277300;Receivables related to joint ventures;asset_fixed;Non
+277400;Advances to Economic Interest Groups (E.I.G.);asset_fixed;Non
+278100;Miscellaneous group receivables;asset_fixed;Non
+278200;Miscellaneous non-group receivables;asset_fixed;Non
+278400;Banks term deposits;asset_fixed;Non
+278500;Gold and precious metals;asset_fixed;Non
+278800;Other financial assets;asset_fixed;Non
+281100;Amortization of development costs;asset_fixed;Non
+281200;Amortization of patents, licenses, concessions and similar rights;asset_fixed;Non
+281300;Amortization of software and websites;asset_fixed;Non
+281400;Amortization of trademarks;asset_fixed;Non
+281500;Amortization of goodwill;asset_fixed;Non
+281600;Amortization of leasehold rights;asset_fixed;Non
+281700;Amortization of start-up investments;asset_fixed;Non
+281800;Amortization of other intangible rights and assets;asset_fixed;Non
+282400;Depreciation of land reclamation work;asset_fixed;Non
+283100;Depreciation of industrial, agricultural, administrative and commercial buildings on own land;asset_fixed;Non
+283200;Depreciation of industrial, agricultural, administrative and commercial buildings on undeveloped land;asset_fixed;Non
+283300;Depreciation of infrastructure works;asset_fixed;Non
+283400;Amortization of fixtures, fittings and technical installations;asset_fixed;Non
+283500;Depreciation of office fittings;asset_fixed;Non
+283700;Depreciation of industrial, agricultural and commercial buildings under concession;asset_fixed;Non
+283800;Depreciation of other fixtures and fittings;asset_fixed;Non
+284100;Depreciation of industrial and commercial equipment and tools;asset_fixed;Non
+284200;Depreciation of agricultural equipment and tools;asset_fixed;Non
+284300;Depreciation of recoverable and identifiable packaging material;asset_fixed;Non
+284400;Depreciation of equipment and furniture;asset_fixed;Non
+284500;Depreciation of transport equipment;asset_fixed;Non
+284600;Depreciation of biological assets;asset_fixed;Non
+284700;Amortization of fixtures, fittings, equipment and biological assets;asset_fixed;Non
+284800;Depreciation of other equipment;asset_fixed;Non
+291100;Impairment of development costs;asset_fixed;Non
+291200;Impairment of patents, licenses, concessions and similar rights;asset_fixed;Non
+291300;Impairment of software and websites;asset_fixed;Non
+291400;Impairment of brands;asset_fixed;Non
+291500;Impairment of goodwill;asset_fixed;Non
+291600;Impairment of leasehold rights;asset_fixed;Non
+291700;Impairment of start-up investments;asset_fixed;Non
+291800;Impairment of other intangible rights and assets;asset_fixed;Non
+291900;Impairment of intangible assets in progress;asset_fixed;Non
+292100;Depreciation of agricultural and forestry land;asset_fixed;Non
+292200;Depreciation of bare land;asset_fixed;Non
+292300;Impairment of built-up land;asset_fixed;Non
+292400;Depreciation of land reclamation work;asset_fixed;Non
+292500;Depreciation of quarry land;asset_fixed;Non
+292600;Impairment of developed land;asset_fixed;Non
+292700;Impairment of land under concession;asset_fixed;Non
+292800;Impairment of other land;asset_fixed;Non
+292900;Impairment of land in progress;asset_fixed;Non
+293100;Depreciation of industrial, agricultural, administrative and commercial buildings on own land;asset_fixed;Non
+293200;Depreciation of industrial, agricultural, administrative and commercial buildings on third-party land;asset_fixed;Non
+293300;Impairment of infrastructure works;asset_fixed;Non
+293400;Impairment of fixtures and fittings;asset_fixed;Non
+293500;Impairment of office fittings;asset_fixed;Non
+293700;Depreciation of industrial, agricultural and commercial buildings under concession;asset_fixed;Non
+293800;Impairment of other fixtures and fittings;asset_fixed;Non
+293900;Depreciation of buildings and installations in progress;asset_fixed;Non
+294100;Impairment of industrial and commercial equipment and tooling;asset_fixed;Non
+294200;Depreciation of agricultural machinery and equipment;asset_fixed;Non
+294300;Depreciation of recoverable and identifiable packaging material;asset_fixed;Non
+294400;Depreciation of equipment and furniture;asset_fixed;Non
+294500;Depreciation of transport equipment;asset_fixed;Non
+294600;Impairment of biological assets;asset_fixed;Non
+294700;Impairment of fixtures, fittings, equipment and biological assets;asset_fixed;Non
+294800;Impairment of other equipment;asset_fixed;Non
+294900;Impairment of equipment in progress;asset_fixed;Non
+295100;Impairment of advances paid on intangible assets;asset_fixed;Non
+295200;Impairment of advances paid on property, plant and equipment;asset_fixed;Non
+296100;Impairment of investments in exclusively controlled entities;asset_fixed;Non
+296200;Impairment of investments in jointly controlled entities;asset_fixed;Non
+296300;Impairment of investments in entities over which significant influence is exercised;asset_fixed;Non
+296500;Impairment of investments in professional bodies;asset_fixed;Non
+296600;Impairment of shares in EIGs;asset_fixed;Non
+296800;Impairment of other investments;asset_fixed;Non
+297100;Impairment of loans and receivables;asset_fixed;Non
+297200;Impairment of employee loans;asset_fixed;Non
+297300;Impairment of receivables from the State;asset_fixed;Non
+297400;Impairment of fixed assets;asset_fixed;Non
+297500;Impairment of deposits and guarantees paid;asset_fixed;Non
+297700;Impairment of receivables from equity investments and advances to EIGs;asset_fixed;Non
+297800;Impairment of miscellaneous financial receivables;asset_fixed;Non
+311100;Goods A1;asset_current;Non
+311200;Goods A2;asset_current;Non
+312100;Goods B1;asset_current;Non
+312200;Goods B2;asset_current;Non
+313100;Biological assets: Animals;asset_current;Non
+313200;Biological assets: Plants;asset_current;Non
+318000;Goods excluding ordinary activities (e.o.a.);asset_current;Non
+321000;Materials a;asset_current;Non
+322000;Materials b;asset_current;Non
+323000;Supplies (a,b);asset_current;Non
+331000;Consumable materials;asset_current;Non
+332000;Workshop and factory supplies;asset_current;Non
+333000;Store supplies;asset_current;Non
+334000;Office supplies;asset_current;Non
+335100;Lost packaging;asset_current;Non
+335200;Unidentifiable recoverable packaging;asset_current;Non
+335300;Mixed use packaging;asset_current;Non
+335800;Other packaging;asset_current;Non
+338000;Other materials;asset_current;Non
+341100;Products in progress P1;asset_current;Non
+341200;Products in progress P2;asset_current;Non
+342100;Work in progress T1;asset_current;Non
+342200;Work in progress T2;asset_current;Non
+343100;Intermediate products A;asset_current;Non
+343200;Intermediate products B;asset_current;Non
+344100;Residual products A;asset_current;Non
+344200;Residual products B;asset_current;Non
+345100;Current biological assets: Animals;asset_current;Non
+345200;Current biological assets: Plants;asset_current;Non
+351100;Studies in progress E1;asset_current;Non
+351200;Studies in progress E2;asset_current;Non
+352100;Services provided S1;asset_current;Non
+352200;Services provided S2;asset_current;Non
+361000;Finished products a;asset_current;Non
+362000;Finished products b;asset_current;Non
+363100;Finished products: Animals;asset_current;Non
+363200;Finished products: Plants;asset_current;Non
+363800;Other inventories (related activities);asset_current;Non
+371100;Intermediate products A;asset_current;Non
+371200;Intermediate products B;asset_current;Non
+372100;Residual products: Waste;asset_current;Non
+372200;Residual products: Scrap;asset_current;Non
+372300;Residual products: Recovery materials;asset_current;Non
+373100;Residual products: Animals;asset_current;Non
+373200;Residual products: Plants;asset_current;Non
+373800;Other inventories (related activities);asset_current;Non
+381000;Goods in transit;asset_current;Non
+382000;Raw materials and supplies related along the way;asset_current;Non
+383000;Other supplies en route;asset_current;Non
+386000;Finished products on the way;asset_current;Non
+387100;Consignment stock;asset_current;Non
+387200;Stock on deposit;asset_current;Non
+388000;Stock from retired or scrapped assets;asset_current;Non
+391000;Depreciation of inventories of goods;asset_current;Non
+392000;Depreciation of raw materials and related supplies;asset_current;Non
+393000;Write-downs on inventories of other goods;asset_current;Non
+394000;Depreciation of work in progress;asset_current;Non
+395000;Impairment of services in progress;asset_current;Non
+396000;Impairment of finished goods inventory;asset_current;Non
+397000;Depreciation of inventories of intermediate and residual products;asset_current;Non
+398000;Depreciation of stocks in transit, on consignment or on deposit;asset_current;Non
+401100;Suppliers;liability_payable;Oui
+401200;Suppliers, Group;liability_payable;Oui
+401300;Subcontractors;liability_payable;Oui
+401600;Suppliers, retention of title;liability_payable;Oui
+401700;Suppliers, holdbacks;liability_payable;Oui
+402100;Suppliers, Notes Payable;liability_payable;Oui
+402200;Suppliers - Group, Notes payable;liability_payable;Oui
+402300;Subcontractors, Notes payable;liability_payable;Oui
+404100;Accounts payable, intangible assets;liability_payable;Oui
+404200;Accounts payable, fixed assets;liability_payable;Oui
+404600;Accounts payable notes payable, intangible assets;liability_payable;Oui
+404700;Accounts payable notes payable, property, plant and equipment;liability_payable;Oui
+408100;Suppliers;liability_payable;Oui
+408200;Suppliers - Group;liability_payable;Oui
+408300;Subcontractors;liability_payable;Oui
+408600;Suppliers, accrued interest;liability_payable;Oui
+409100;Suppliers advances and deposits paid;asset_current;Non
+409200;Suppliers - Advance payments group;asset_current;Non
+409300;Suppliers and subcontractors Advances and deposits paid;asset_current;Non
+409400;Suppliers receivables for packaging and materials to be returned;asset_current;Non
+409800;Suppliers, discounts, rebates and other credits to be obtained;asset_current;Non
+411100;Customers;asset_receivable;Oui
+411200;Clients - Group;asset_receivable;Oui
+411300;Clients (PoS);asset_receivable;Oui
+411400;Clients, government and public authorities;asset_receivable;Oui
+411500;Clients, international organizations;asset_receivable;Oui
+411600;Customers, reservation of ownership;asset_receivable;Oui
+411700;Customers, holdbacks;asset_receivable;Oui
+411800;Customers, Value Added Tax (VAT) rebate;asset_receivable;Oui
+412100;Accounts receivable, Notes receivable;asset_receivable;Oui
+412200;Customers - Group, Notes receivable;asset_receivable;Oui
+412400;Government and public authorities, Notes receivable;asset_receivable;Oui
+412500;International Organizations, Notes Receivable;asset_receivable;Oui
+413100;Customers, unpaid checks;asset_receivable;Oui
+413200;Customers, Unpaid items;asset_receivable;Oui
+413300;Customers, unpaid credit cards;asset_receivable;Oui
+413800;Customers, other unpaid items;asset_receivable;Oui
+414100;Accounts receivable, intangible assets;asset_receivable;Oui
+414200;Accounts receivable, property, plant and equipment;asset_receivable;Oui
+414600;Notes receivable, intangible assets;asset_receivable;Oui
+414700;Notes receivable, property, plant and equipment;asset_receivable;Oui
+415000;Customers, unpaid discounted bills;asset_receivable;Oui
+416100;Litigated claims;asset_receivable;Oui
+416200;Bad debts;asset_receivable;Oui
+418100;Clients, invoices to be issued;asset_receivable;Oui
+418600;Customers, accrued interest;asset_receivable;Oui
+419100;Customers, advances and deposits received;liability_current;Non
+419200;Customers - Group, advances and deposits received;liability_current;Non
+419400;Trade receivables, payables for packaging and returnable materials;liability_current;Non
+419800;Customers, discounts, rebates and other credits to be granted;liability_current;Non
+421100;Personnel, advances;asset_receivable;Oui
+421200;Personnel, down payments;asset_receivable;Oui
+421300;Advanced fees and supplies to staff;asset_receivable;Oui
+422000;Personnel, remuneration due;liability_current;Non
+423100;Staff, objections;liability_current;Non
+423200;Personnel, garnishments;liability_current;Non
+423300;Personal, third party notice;liability_current;Non
+424100;Medical assistance;liability_current;Non
+424200;Family allowances;liability_current;Non
+424500;Social organizations related to the entity;liability_current;Non
+424800;Other internal social works;liability_current;Non
+425100;Staff representatives;liability_current;Non
+425200;Trade Unions and Works Councils;liability_current;Non
+425800;Other staff representatives;liability_current;Non
+426100;Profit sharing;liability_current;Non
+426400;Participation in the capital;liability_current;Non
+427000;Personnel - deposits;liability_current;Non
+428100;Accrued vacation payables;liability_current;Non
+428600;Other accrued expenses;liability_current;Non
+428700;Accrued income;asset_receivable;Oui
+431100;Family benefits;liability_current;Non
+431200;Workplace accidents;liability_current;Non
+431300;Mandatory pension fund;liability_current;Non
+431400;Optional Pension Fund;liability_current;Non
+431800;Other social contributions;liability_current;Non
+432000;Supplementary pension funds;liability_current;Non
+433100;Mutual Insurance;liability_current;Non
+433200;Retirement Insurance;liability_current;Non
+433300;Health insurances and organizations;liability_current;Non
+438100;Social charges on bonuses to be paid;liability_current;Non
+438200;Social charges on leave payable;liability_current;Non
+438600;Social charges on leave payable;liability_current;Non
+438700;Accrued income;asset_receivable;Oui
+441000;State, income tax;liability_current;Non
+442100;State taxes and fees;liability_current;Non
+442200;Taxes for public authorities;liability_current;Non
+442300;Taxes recoverable from bondholders;liability_current;Non
+442400;Taxes recoverable from associates;liability_current;Non
+442600;Customs duties;liability_current;Non
+442800;Other taxes;liability_current;Non
+443100;VAT invoiced on sales;liability_current;Non
+443200;V.A.T. invoiced on services provided;liability_current;Non
+443300;V.A.T. charged on work;liability_current;Non
+443400;V.A.T. charged on self-delivered production;liability_current;Non
+443500;V.A.T. on invoices to be issued;liability_current;Non
+444100;State, V.A.T. due;liability_current;Non
+444500;State, V.A.T. rebate;liability_current;Non
+444900;State, V.A.T. credit to be carried forward;liability_current;Non
+445100;Recoverable VAT on fixed assets;liability_current;Non
+445200;V.A.T. recoverable on purchases;liability_current;Non
+445300;V.A.T. recoverable on transport;liability_current;Non
+445400;Recoverable VAT on external services and other expenses;liability_current;Non
+445500;V.A.T. recoverable on invoices not received;liability_current;Non
+445600;V.A.T. transferred by other entities;liability_current;Non
+446000;STATE, OTHER SALES TAXES;liability_current;Non
+447100;General Income Tax;liability_current;Non
+447200;Payroll taxes;liability_current;Non
+447300;National contribution;liability_current;Non
+447400;National solidarity contribution;liability_current;Non
+447800;Other taxes and contributions;liability_current;Non
+448600;Accrued expenses;liability_current;Non
+448700;Accrued income;liability_current;Non
+449100;State, bonded bonds;liability_current;Non
+449200;State, advances and down payments on taxes;liability_current;Non
+449300;State, endowment receivable;liability_current;Non
+449400;State, investment grants receivable;liability_current;Non
+449500;State, operating grants receivable;liability_current;Non
+449600;State, balancing grants receivable;liability_current;Non
+449700;State, advances on grants;liability_current;Non
+449900;State, regulated fund provisioned;liability_current;Non
+451000;Operations with african organizations;liability_current;Non
+452000;Operations with other international organizations;liability_current;Non
+458100;International organizations, endowments receivable;liability_current;Non
+458200;International organizations, grants receivable;liability_current;Non
+461100;Contributors, contributions in kind;liability_current;Non
+461200;Contributors, cash contributions;liability_current;Non
+461300;Contributors, called, unpaid capital;liability_current;Non
+461400;Contributors, contribution account, restructuring operations (merger...);liability_current;Non
+461500;Contributors, payments received on capital increase;liability_current;Non
+461600;Contributors, advance payments;liability_current;Non
+461700;Defaulting contributors;liability_current;Non
+461800;Contributors, securities to be exchanged;liability_current;Non
+461900;Contributors, capital to be repaid;liability_current;Non
+462100;Partners, current accounts: Principal;liability_current;Non
+462600;Partners, current accounts: Accrued interest;liability_current;Non
+463100;Partners, joint operations and management: Current operations;liability_current;Non
+463600;Partners, joint ventures and joint management: Accrued interest;liability_current;Non
+465000;Associates, dividends to be paid;liability_current;Non
+466000;Group, current accounts;liability_current;Non
+467000;Outstanding contributions on called capital;liability_current;Non
+469000;Entity, dividends receivable;liability_current;Non
+471100;Miscellaneous debtors;liability_current;Non
+471200;Miscellaneous creditors;liability_current;Non
+471300;Debtors and other creditors: Bonds;liability_current;Non
+471500;Remuneration of non-member directors;liability_current;Non
+471600;Factoring and securitization account;liability_current;Non
+471700;Miscellaneous receivables - holdbacks;liability_current;Non
+471800;Contribution, merger account and similar transactions;liability_current;Non
+471900;Stock and bond warrants;liability_current;Non
+472100;Receivables from sales of investment securities;liability_current;Non
+472600;Outstanding payments on unreleased investment securities;liability_current;Non
+473100;Intermediaries, transactions on behalf of third parties: Principals;liability_current;Non
+473200;Intermediaries, transactions on behalf of third parties: Agents;liability_current;Non
+473300;Intermediaries, transactions on behalf of third parties: Principals;liability_current;Non
+473400;Intermediaries, transactions on behalf of third parties: Commission agents;liability_current;Non
+473900;State, local authorities, global allocation fund;liability_current;Non
+474600;Periodic expense allocation account;liability_current;Non
+474700;Periodic Revenue Allocation Account;liability_current;Non
+475100;Transitional account, special adjustment: Asset account;equity;Non
+475200;Transitional account, special adjustment: Liability account;equity;Non
+476000;Prepaid expenses;equity;Non
+477000;Deferred income;equity;Non
+478110;Decrease in operating receivables;equity;Non
+478180;Decrease in HAO receivables;equity;Non
+478200;Decrease in financial receivables;equity;Non
+478310;Increase in operating liabilities;equity;Non
+478380;Increase in HAO debts;equity;Non
+478400;Increase in financial liabilities;equity;Non
+478600;Valuation differences on cash instruments;equity;Non
+478800;Differences offset by currency hedging;equity;Non
+479110;Increase in operating receivables;equity;Non
+479180;Increase in HAO receivables;equity;Non
+479200;Increase in financial receivables;equity;Non
+479310;Decrease in operating liabilities;equity;Non
+479380;Decrease in HAO debts;equity;Non
+479400;Decrease in financial liabilities;equity;Non
+479700;Valuation differences on cash instruments;equity;Non
+479800;Differences offset by currency hedging;equity;Non
+481100;Intangible assets;liability_current;Non
+481200;Tangible assets;liability_current;Non
+481300;Outstanding payments on equity securities and non-vested securities;liability_current;Non
+481610;Reservation of ownership - intangible assets;liability_current;Non
+481620;Reservation of ownership - property, plant and equipment;liability_current;Non
+481710;Holdbacks - intangible assets;liability_current;Non
+481720;Holdbacks - tangible capital assets;liability_current;Non
+481810;Unpaid invoices - intangible assets;liability_current;Non
+481820;Unpaid invoices - property, plant and equipment;liability_current;Non
+482100;Intangible assets;liability_current;Non
+482200;Tangible assets;liability_current;Non
+484000;Other liabilities not related to ordinary activities (o.a.s.);liability_current;Non
+485100;In account, intangible assets;asset_receivable;Oui
+485200;In account, tangible assets;asset_receivable;Oui
+485300;Notes receivable, intangible assets;asset_receivable;Oui
+485400;Notes receivable, tangible assets;asset_receivable;Oui
+485500;Discounted bills not yet due;asset_receivable;Oui
+485600;Financial assets;asset_receivable;Oui
+485700;Holdbacks;asset_receivable;Oui
+485800;Invoices to be issued;asset_receivable;Oui
+488000;Other receivables not related to ordinary activities (o.a.s.);asset_receivable;Oui
+490000;Depreciation of accounts payable;asset_current;Non
+491100;Litigated claims;asset_current;Non
+491200;Doubtful debts;asset_current;Non
+492000;Depreciation of personal accounts;asset_current;Non
+493000;Depreciation of social security accounts;asset_current;Non
+494000;Depreciation of state and local authority accounts;asset_current;Non
+495000;Depreciation of international organizations accounts;asset_current;Non
+496200;Associates, current accounts;asset_current;Non
+496300;Partners, joint operations and EIG;asset_current;Non
+496600;Group, current accounts;asset_current;Non
+497000;Depreciation of miscellaneous accounts receivable;asset_current;Non
+498500;Receivables on disposal of fixed assets;asset_current;Non
+498600;Receivables from sales of investment securities;asset_current;Non
+498800;Other receivables O.A.S.;asset_current;Non
+499100;Provisions for short-term risks on operating activities;asset_current;Non
+499700;Provisions for short-term risks on financial operations;asset_current;Non
+499800;Provisions for short-term risks on O.A.S. operations;asset_current;Non
+501100;Short-term Treasury securities;asset_current;Non
+501200;Securities of financial institutions;asset_current;Non
+501300;Short-term cash bonds;asset_current;Non
+501600;Acquisition costs of treasury securities and bills of exchange;asset_current;Non
+502100;Own shares or units;asset_current;Non
+502200;Listed shares;asset_current;Non
+502300;Unlisted shares;asset_current;Non
+502400;"Stripped shares (investment certificates; voting rights)";asset_current;Non
+502500;Other actions;asset_current;Non
+502600;Share acquisition costs;asset_current;Non
+503100;Bonds issued by the entity and redeemed by it;asset_current;Non
+503200;Listed bonds;asset_current;Non
+503300;Unlisted bonds;asset_current;Non
+503500;Other obligations;asset_current;Non
+503600;Bond Acquisition Costs;asset_current;Non
+504200;Share subscription warrants;asset_current;Non
+504300;Bond warrants;asset_current;Non
+505000;Marketable securities outside the region;asset_current;Non
+506100;Treasury securities and short-term bills;asset_current;Non
+506200;Actions;asset_current;Non
+506300;Obligations;asset_current;Non
+508000;Other investment securities and similar receivables;asset_current;Non
+521001;Bank;asset_cash;Non
+521002;Bank Suspense Account;asset_current;Oui
+531000;Postal cheques;asset_current;Non
+532000;Treasury;asset_current;Non
+533000;Management and intermediation companies (m.i.c.);asset_current;Non
+536000;Financial institutions, accrued interest;asset_current;Non
+538000;Other financial bodies;asset_current;Non
+541000;Interest rate options;asset_current;Non
+542000;Exchange rate options;asset_current;Non
+543000;Stock rate options;asset_current;Non
+544000;Forward market instruments;asset_current;Non
+545000;Gold and other precious metals holdings;asset_current;Non
+551000;Electronic money - fuel card;asset_current;Non
+552000;Electronic money - cell phone;asset_current;Non
+553000;Electronic money - peage card;asset_current;Non
+554000;Electronic purse;asset_current;Non
+558000;Other electronic money instruments;asset_current;Non
+561000;Cash credits;asset_current;Non
+564000;Discounting of campaign credits;asset_current;Non
+565000;Discounting of campaign credits;asset_current;Non
+566000;Banks, cash credits, accrued interest;asset_current;Non
+571001;Cash;asset_cash;Non
+571100;Cash in national currency;asset_current;Non
+571200;Cash in foreign currencies;asset_current;Non
+572100;Branch Fund A in national currency;asset_current;Non
+572200;Foreign Currency Branch A;asset_current;Non
+573100;Branch office B in national currency;asset_current;Non
+573200;Branch cashier B in foreign currency;asset_current;Non
+581000;Imprest accounts;asset_current;Non
+582000;Accreditives;asset_current;Non
+585000;Fund transfers;asset_current;Non
+585001;Liquidity Transfer;asset_current;Oui
+590000;Impairment of investment securities;asset_current;Non
+591000;Impairment of securities and receivables;asset_current;Non
+592000;Impairment of bank accounts;asset_current;Non
+593000;Impairment of financial institutions and similar accounts;asset_current;Non
+594000;Impairment of cash instrument accounts;asset_current;Non
+599000;Provisions for short-term financial risks;asset_current;Non
+601100;Purchases of goods in the Region;expense;Non
+601200;Purchases of goods outside the region;expense;Non
+601300;Purchases of goods from Group entities in the Region;expense;Non
+601400;Purchases of goods from Group entities outside the Region;expense;Non
+601500;Purchase of goods expenses on purchases;expense;Non
+601900;Discounts and rebates obtained (not broken down);expense;Non
+602100;Purchases of raw materials and related supplies in the Region;expense;Non
+602200;Purchases of raw materials and related supplies outside the Region;expense;Non
+602300;Purchases of raw materials and supplies related to group entities in the Region;expense;Non
+602400;Purchases of raw materials and supplies related to group entities outside the Region;expense;Non
+602500;Purchases of raw materials and related supplies expenses on purchases;expense;Non
+602900;Rebates, Rebates and Rebates obtained (not broken down);expense;Non
+603100;Changes in merchandise stocks;expense;Non
+603200;Changes in inventories of raw materials and related supplies;expense;Non
+603300;Changes in stocks of other supplies;expense;Non
+604100;Consumables;expense;Non
+604200;Combustible materials;expense;Non
+604300;Care products;expense;Non
+604400;Workshop and factory supplies;expense;Non
+604500;Fees on purchases;expense;Non
+604600;Store supplies;expense;Non
+604700;Office supplies;expense;Non
+604900;Rebates, Rebates and Rebates obtained (not broken down);expense;Non
+605100;Non-storable supplies -Water;expense;Non
+605200;Non-storable supplies - Electricity;expense;Non
+605300;Non-storable supplies – Other energies;expense;Non
+605400;Non-storable maintenance supplies;expense;Non
+605500;Non-storable office supplies;expense;Non
+605600;Purchases of small equipment and tools;expense;Non
+605700;Purchases of studies and provision of services;expense;Non
+605800;Purchases of works, materials and equipment;expense;Non
+605900;Rebates, Rebates and Rebates obtained (not broken down);expense;Non
+608100;One-way packaging;expense;Non
+608200;Unidentifiable returnable packaging;expense;Non
+608300;Mixed-use packaging;expense;Non
+608500;Purchase fees;expense;Non
+608900;Rebates, Rebates and Rebates obtained (not broken down);expense;Non
+612000;Transport on sales;expense;Non
+613000;Transport for third parties;expense;Non
+614000;Staff transport;expense;Non
+616000;Ply transport;expense;Non
+618100;Travel and trips;expense;Non
+618200;Transport between establishments or worksites;expense;Non
+618300;Administrative transport;expense;Non
+621000;General subcontracting;expense;Non
+622100;Land rentals;expense;Non
+622200;Building rentals;expense;Non
+622300;Rental of equipment and tools;expense;Non
+622400;Malus on packaging;expense;Non
+622500;Packaging rentals;expense;Non
+622600;Rents and land rents;expense;Non
+622800;Miscellaneous rentals and rental charges;expense;Non
+623200;Real estate leasing;expense;Non
+623300;Furniture leasing;expense;Non
+623400;Rent sale;expense;Non
+623800;Other capital leases;expense;Non
+624100;Property maintenance and repairs;expense;Non
+624200;Maintenance and repairs of movable property;expense;Non
+624300;Maintenance;expense;Non
+624400;Dismantling and restoration costs;expense;Non
+624800;Other maintenance and repairs;expense;Non
+625100;Multi-risk insurance;expense;Non
+625200;Transport equipment insurance;expense;Non
+625300;Operating risk insurance;expense;Non
+625400;Producer liability insurance;expense;Non
+625500;Customer insolvency insurance;expense;Non
+625700;Transport insurance on sales;expense;Non
+625800;Other insurance premiums;expense;Non
+626100;Studies and research;expense;Non
+626500;General documentation;expense;Non
+626600;Technical documentation;expense;Non
+627100;Ads, inserts;expense;Non
+627200;Catalogs, printed advertising;expense;Non
+627300;Samples;expense;Non
+627400;Fairs and exhibitions;expense;Non
+627500;Publications;expense;Non
+627600;Gifts to customers;expense;Non
+627700;Costs of symposia, seminars, conferences;expense;Non
+627800;Other advertising and public relations expenses;expense;Non
+628100;Telephone charges;expense;Non
+628200;Telex charges;expense;Non
+628300;Fax charges;expense;Non
+628800;Other telecommunications costs;expense;Non
+631100;Fees on securities (sale, custody);expense;Non
+631200;Bill of exchange fees;expense;Non
+631300;Rental of safes;expense;Non
+631400;Factoring and securitization commissions;expense;Non
+631500;Credit card fees;expense;Non
+631600;Loan issue costs;expense;Non
+631700;Fees on electronic money instruments;expense;Non
+631800;Other bank charges;expense;Non
+632200;Commissions and brokerage on sales;expense;Non
+632400;Fees for regulated professions;expense;Non
+632500;Legal and litigation costs;expense;Non
+632600;Factoring and securitization fees;expense;Non
+632700;Remuneration of other service providers;expense;Non
+632800;Miscellaneous fees;expense;Non
+633000;Staff training costs;expense;Non
+634200;Royalties for patents, licenses;expense;Non
+634300;Software royalties;expense;Non
+634400;Trademark royalties;expense;Non
+634500;Royalties for websites;expense;Non
+634600;Royalties for concessions, rights and similar values;expense;Non
+635100;Contributions;expense;Non
+635800;Various competitions;expense;Non
+637100;Temporary staff;expense;Non
+637200;Staff seconded or loaned to the entity;expense;Non
+638100;Staff recruitment costs;expense;Non
+638200;Moving expenses;expense;Non
+638300;Receptions;expense;Non
+638400;Tasks;expense;Non
+638500;Condominium fees;expense;Non
+638800;Miscellaneous external loads;expense;Non
+641100;Property taxes and related taxes;expense;Non
+641200;Patents, licenses and related taxes;expense;Non
+641300;Taxes on salaries and wages;expense;Non
+641400;Apprenticeship taxes;expense;Non
+641500;Professional formation continues;expense;Non
+641800;Other direct taxes and duties;expense;Non
+645000;Indirect taxes and taxes;expense;Non
+646100;Transfer taxes;expense;Non
+646200;Stamp duties;expense;Non
+646300;Taxes on company vehicles;expense;Non
+646400;Thumbnails;expense;Non
+646800;Other registration fees;expense;Non
+647100;Base penalties, direct taxes;expense;Non
+647200;Base penalties, indirect taxes;expense;Non
+647300;Recovery penalties, direct taxes;expense;Non
+647400;Recovery penalties, indirect taxes;expense;Non
+647800;Other tax penalties and fines;expense;Non
+648000;Other taxes and duties;expense;Non
+651100;Customer;expense;Non
+651500;Other debtors;expense;Non
+652100;Transferred share of profits (manager's accounting);expense;Non
+652500;Losses imputed by transfer (accounting of non-managing partners);expense;Non
+654100;Intangible assets;expense;Non
+654200;Tangible assets;expense;Non
+656000;Exchange loss on trade receivables and debts;expense;Non
+657000;Penalties and criminal fines;expense;Non
+658100;Service allowances and other directors' compensation;expense;Non
+658200;Donations;expense;Non
+658300;Patronage;expense;Non
+658800;Other miscellaneous charges;expense;Non
+659100;Impairment charges and provisions for short-term risks;expense;Non
+659300;Charges for depreciation and provisions for short-term risks on inventories;expense;Non
+659400;Impairment charges and provisions for short-term risks on receivables;expense;Non
+659800;Other charges for impairment and provisions for short-term risks;expense;Non
+661100;Salaries and commissions;expense;Non
+661200;Bonuses and gratuities;expense;Non
+661300;Paid vacation;expense;Non
+661400;Compensation for notice, dismissal and search for employment;expense;Non
+661500;Sickness benefits paid to workers;expense;Non
+661600;Family supplement;expense;Non
+661700;Benefits in kind;expense;Non
+661800;Other direct compensation;expense;Non
+662100;Salaries and commissions;expense;Non
+662200;Bonuses and gratuities;expense;Non
+662300;Paid vacation;expense;Non
+662400;Compensation for notice, dismissal and search for employment;expense;Non
+662500;Sickness benefits paid to workers;expense;Non
+662600;Family supplement;expense;Non
+662700;Benefits in kind;expense;Non
+662800;Other direct compensation;expense;Non
+663100;Housing allowances;expense;Non
+663200;Representation allowances;expense;Non
+663300;Expatriation allowances;expense;Non
+663400;Transportation allowances;expense;Non
+663800;Other allowances and miscellaneous benefits;expense;Non
+664100;Social charges on the remuneration of national staff;expense;Non
+664200;Social charges on remuneration of non-national staff;expense;Non
+666100;Remuneration for the operator's work;expense;Non
+666200;Social charges;expense;Non
+667100;Temporary staff;expense;Non
+667200;Staff seconded or loaned to the entity;expense;Non
+668100;Payments to trade unions and works and establishment committees;expense;Non
+668200;Payments to health and safety committees;expense;Non
+668300;Payments and contributions to other social works;expense;Non
+668400;Occupational medicine and pharmacy;expense;Non
+668500;Insurance and health organizations;expense;Non
+668600;Retirement insurance and pension funds;expense;Non
+668700;Increases and social penalties;expense;Non
+668800;Miscellaneous social charges;expense;Non
+671100;Bond issues;expense;Non
+671200;Loans from credit institutions;expense;Non
+671300;Debts linked to shareholdings;expense;Non
+671400;Bond redemption premiums;expense;Non
+672200;Interest in rents from capital purchases/property leasing;expense;Non
+672300;Interest in rents from capital leases/equipment leasing;expense;Non
+672400;Interest in rent-to-own/hire-purchase;expense;Non
+672800;Interest in rents from other capital leases;expense;Non
+673000;Discounts granted;expense;Non
+674100;Advances received and deposits payable;expense;Non
+674200;Blocked current accounts;expense;Non
+674300;Interest on guaranteed bonds;expense;Non
+674400;Interest on commercial debts;expense;Non
+674500;Bank and financing interest (discount, etc.);expense;Non
+674800;Interest on miscellaneous debts;expense;Non
+675000;Discounts from commercial bills;expense;Non
+676000;Financial exchange losses;expense;Non
+677100;Losses on sale of investment securities;expense;Non
+677200;Losses from the free allocation of shares to salaried staff and managers;expense;Non
+678100;Losses and charges on life annuities;expense;Non
+678200;Losses and charges on financial transactions;expense;Non
+678400;Losses and charges on cash instruments;expense;Non
+679100;Charge for depreciation and provisions for financial risks;expense;Non
+679500;Charge for depreciation and provisions on investment securities;expense;Non
+679800;Other charges for impairment and provisions for short-term financial risks;expense;Non
+681200;Amortization of intangible assets;expense;Non
+681300;Depreciation of property, plant and equipment;expense;Non
+691100;Allocations to provisions for risks and charges;expense;Non
+691300;Depreciation of intangible fixed assets;expense;Non
+691400;Depreciation of property, plant and equipment;expense;Non
+697100;Allocations to provisions for risks and charges;expense;Non
+697200;Depreciation of financial fixed assets;expense;Non
+701100;Sale of goods in the Region;income;Non
+701200;Sale of goods outside the Region;income;Non
+701300;Sale of goods to group entities in the Region;income;Non
+701400;Sale of goods to group entities outside the Region;income;Non
+701500;Sale of goods on the internet;income;Non
+701900;Rebates, rebates, rebates granted (not broken down) on the sale of goods;income;Non
+702100;Sales of finished products in the Region;income;Non
+702200;Sales of finished products outside the Region;income;Non
+702300;Sales of finished products to group entities in the Region;income;Non
+702400;Sales of finished products to group entities outside the Region;income;Non
+702500;Online sales of finished products;income;Non
+702900;Rebates, rebates, rebates granted (not broken down) on sales of finished products;income;Non
+703100;Sales of intermediate products in the Region;income;Non
+703200;Sales of intermediate products outside the Region;income;Non
+703300;Sales of intermediate products to group entities in the Region;income;Non
+703400;Sales of intermediate products to group entities outside the Region;income;Non
+703500;Sales of intermediate products on the internet;income;Non
+703900;Rebates, rebates, rebates granted (not broken down) on Sales of intermediate products;income;Non
+704100;Sales of residual products in the Region;income;Non
+704200;Sales of residual products outside the Region;income;Non
+704300;Sales of residual products to group entities in the Region;income;Non
+704400;Sales of residual products to group entities outside the Region;income;Non
+704500;Sales of residual products on the internet;income;Non
+704900;Rebates, rebates, rebates granted (not broken down) on sales of residual products;income;Non
+705100;Works invoiced in the Region;income;Non
+705200;Work invoiced outside the Region;income;Non
+705300;Work invoiced to group entities in the Region;income;Non
+705400;Work invoiced to group entities outside the Region;income;Non
+705500;Work billed online;income;Non
+705900;Rebates, rebates, rebates granted (not broken down) on invoiced work;income;Non
+706100;Services sold in the Region;income;Non
+706200;Services sold outside the Region;income;Non
+706300;Services sold to group entities in the Region;income;Non
+706400;Services sold to group entities outside the Region;income;Non
+706500;Services sold on the internet;income;Non
+706900;Rebates, rebates, rebates granted (not broken down) on services sold;income;Non
+707100;Postage, lost packaging and other fees charged;income;Non
+707200;Commissions and brokerage;income;Non
+707300;Rentals and rental fees - financing;income;Non
+707400;Bonuses on takeovers and disposals of packaging;income;Non
+707500;Provision of staff;income;Non
+707600;Royalties for patents, software, trademarks and similar rights;income;Non
+707700;Services operated in the interest of staff;income;Non
+707800;Other accessory products;income;Non
+711000;On export products;income;Non
+712000;On imported products;income;Non
+713000;On equalization products;income;Non
+714000;Indemnities and operating subsidies (agricultural entity);income;Non
+718100;Paid by the State and public authorities;income;Non
+718200;Paid by international organizations;income;Non
+718300;Paid by third parties;income;Non
+721000;Intangible assets;income;Non
+722100;Tangible assets (excluding biological assets);income;Non
+722200;Tangible assets (biological assets);income;Non
+724000;Self-consumed production;income;Non
+726000;Financial assets;income;Non
+734100;Changes in stocks of products in progress;income;Non
+734200;Changes in work in progress inventories;income;Non
+735100;Changes in work in progress: Studies in progress;income;Non
+735200;Changes in services in progress: Services in progress;income;Non
+736000;Changes in stocks of finished products;income;Non
+737100;Changes in inventories of intermediate products;income;Non
+737200;Changes in inventory of residual products;income;Non
+751000;Profits on trade receivables and other debtors;income;Non
+752100;Transferred share of losses (manager's accounting);income;Non
+752500;Profits allocated by transfer (accounting of non-managing partners);income;Non
+754100;Intangible assets;income;Non
+754200;Fixed assets;income;Non
+756000;Exchange gains on trade receivables and debts;income;Non
+758100;Service allowances and other directors' compensation;income;Non
+758200;Insurance compensation received;income;Non
+758800;Other miscellaneous products;income;Non
+759100;Reversal of charges for depreciation and provisions for short-term risks;income;Non
+759300;Recovery of charges for depreciation and provisions on inventories;income;Non
+759400;Recovery of charges for depreciation and provisions on receivables;income;Non
+759800;Reversal of charges for depreciation and provisions for other charges for depreciation and provisions for short-term operating risks;income;Non
+771200;Loan interest;income;Non
+771300;Interest on miscellaneous receivables;income;Non
+772100;Income from equity securities;income;Non
+772200;Income from other fixed securities;income;Non
+773000;Discounts obtained;income;Non
+774500;Bond income;income;Non
+774600;Income from investment securities;income;Non
+775000;Interest in finance lease rents;income;Non
+776000;Financial exchange gains;income;Non
+777000;Gains on disposals of marketable securities;income;Non
+778100;Earnings on life annuities;income;Non
+778200;Gains on financial operations;income;Non
+778400;Gains on cash instruments;income;Non
+779100;Reversals of charges for depreciations and short-term provisions on financial risks;income;Non
+779500;Reversals of charges for depreciations and short-term provisions on investment securities;income;Non
+779800;Reversals of expenses for depreciations and short-term provisions on other expenses for depreciations and provisions for short-term financial risks;income;Non
+781000;Transfers of operating expenses;income;Non
+787000;Transfers of financial expenses;income;Non
+791100;Reversals of provisions and operating depreciations for risks and charges;income;Non
+791300;Reversals of provisions and operating depreciation of intangible assets;income;Non
+791400;Reversals of provisions and operating depreciation of tangible assets;income;Non
+797100;Reversals of provisions and financial depreciations for risks and charges;income;Non
+797200;Reversals of provisions and financial depreciation of financial fixed assets;income;Non
+798000;Reversals of amortization;income;Non
+799000;Reprises de subventions d’investissement;income;Non
+811000;Intangible assets;expense;Non
+812000;Tangible assets;expense;Non
+816000;Financial assets;expense;Non
+821000;Intangible assets;income;Non
+822000;Tangible assets;income;Non
+826000;Financial assets;income;Non
+831000;O.A.S. recognized;expense;Non
+833000;Expenses related to restructuring operations;expense;Non
+834000;Losses on o.a.s. receivables;expense;Non
+835000;Donations and freedom granted;expense;Non
+836000;Waiver of receivables agreed;expense;Non
+837000;Expenses related to liquidation operations;expense;Non
+839000;Expenses for depreciations and provisions for short-term risks o.a.s.;expense;Non
+841000;O.A.S products observed;income;Non
+843000;Income related to restructuring operations;income;Non
+844000;Indemnities and subsidies h.a.o. (agricultural entity);income;Non
+845000;Donations and liberalities obtained;income;Non
+846000;Waiver of debts obtained;income;Non
+847000;Income related to liquidation transactions;income;Non
+848000;Transfers of o.a.s expenses;income;Non
+849000;Reversal of expenses for depreciations and provisions for short-term risks o.a.s.;income;Non
+851000;Allocations to regulated provisions;expense;Non
+852000;Depreciation and amortization o.a.s.;expense;Non
+853000;Impairment allowances o.a.s.;expense;Non
+854000;Allocations to provisions for risks and charges o.a.s.;expense;Non
+858000;Other awards o.a.s.;expense;Non
+861000;Reversals of regulated provisionsreversals of regulated provisions;income;Non
+862000;Reversals of o.a.s amortization;income;Non
+863000;Reversals of impairment o.a.s.;income;Non
+864000;Recovery of provisions for o.a.s. risks and charges;income;Non
+868000;Other o.a.s.;income;Non
+871000;Legal profit sharing;expense;Non
+874000;Contractual profit sharing;expense;Non
+878000;Other participations;expense;Non
+881000;State;income;Non
+884000;Public collectivities;income;Non
+886000;Group;income;Non
+888000;Others;income;Non
+891100;Activities carried out in the State;expense;Non
+891200;Activities carried out in the other States of the Region;expense;Non
+891300;Activities carried out outside the Region;expense;Non
+892000;Tax reminder on previous results;expense;Non
+895000;Minimum fixed tax (m.f.t.);expense;Non
+899100;Reductions;expense;Non
+899400;Cancellations for retroactive losses;expense;Non
+901100;Confirmed credits earned;off_balance;Non
+901200;Loans still to be collected;off_balance;Non
+901300;Revolving financing facilities;off_balance;Non
+901400;Issuance facilities;off_balance;Non
+901800;Other financing commitments obtained;off_balance;Non
+902100;Endorsements obtained;off_balance;Non
+902200;Deposits, guarantees obtained;off_balance;Non
+902300;Mortgages obtained;off_balance;Non
+902400;Items endorsed by third parties;off_balance;Non
+902800;Other guarantees obtained;off_balance;Non
+903100;Forward commodity purchases;off_balance;Non
+903200;Currency forward purchases;off_balance;Non
+903300;Firm customer orders;off_balance;Non
+903800;Other reciprocal commitments;off_balance;Non
+904100;Conditional debt waivers;off_balance;Non
+904300;Sales with retention of title clause;off_balance;Non
+904800;Various commitments obtained;off_balance;Non
+905100;Loans granted but not disbursed;off_balance;Non
+905800;Other financing commitments granted;off_balance;Non
+906100;Endorsements granted;off_balance;Non
+906200;Deposits, guarantees granted;off_balance;Non
+906300;Mortgages granted;off_balance;Non
+906400;Items endorsed by the entity;off_balance;Non
+906800;Other guarantees granted;off_balance;Non
+907100;Forward Commodity Sales;off_balance;Non
+907200;Currency forward sales;off_balance;Non
+907300;Firm orders to suppliers;off_balance;Non
+907800;Other reciprocal commitments;off_balance;Non
+908100;Conditional debt cancellations;off_balance;Non
+908200;Retirement commitments;off_balance;Non
+908300;Purchases with retention of title clause;off_balance;Non
+908800;Various commitments granted;off_balance;Non
+911100;Counterparties - Confirmed credits obtained;off_balance;Non
+911200;Counterparties - Loans still to be collected;off_balance;Non
+911300;Counterparties - Revolving financing facilities;off_balance;Non
+911400;Counterparties - Issuance facilities;off_balance;Non
+911800;Counterparties - Other financing commitments obtained;off_balance;Non
+912100;Counterparts - Endorsements obtained;off_balance;Non
+912200;Counterparties - Sureties, guarantees obtained;off_balance;Non
+912300;Considerations - Mortgages obtained;off_balance;Non
+912400;Counterparties - Items endorsed by third parties;off_balance;Non
+912800;Counterparties - Other guarantees obtained;off_balance;Non
+913100;Counterparties - Forward Commodity Purchases;off_balance;Non
+913200;Counterparties - Forward currency purchases;off_balance;Non
+913300;Counterparties - Firm customer orders;off_balance;Non
+913800;Considerations - Other reciprocal commitments;off_balance;Non
+914100;Counterparties - Conditional debt waivers;off_balance;Non
+914300;Considerations - Sales with retention of title clause;off_balance;Non
+914800;Considerations - Various commitments obtained;off_balance;Non
+915100;Counterparties - Loans granted but not disbursed;off_balance;Non
+915800;Counterparties - Other financing commitments granted;off_balance;Non
+916100;Considerations - Guarantees granted;off_balance;Non
+916200;Counterparties - Sureties, guarantees granted;off_balance;Non
+916300;Considerations - Mortgages granted;off_balance;Non
+916400;Considerations - Items endorsed by the entity;off_balance;Non
+916800;Counterparties - Other guarantees granted;off_balance;Non
+917100;Counterparties - Forward Commodity Sales;off_balance;Non
+917200;Counterparties - Forward currency sales;off_balance;Non
+917300;Considerations - Firm orders to suppliers;off_balance;Non
+917800;Considerations - Other reciprocal commitments;off_balance;Non
+918100;Counterparties - Conditional debt cancellations;off_balance;Non
+918200;Counterparties - Retirement commitments;off_balance;Non
+918300;Counterparties - Purchases with retention of title clause;off_balance;Non
+918800;Considerations - Various commitments granted;off_balance;Non
+920000;Reflective accounts;off_balance;Non
+930000;Reclassification accounts;off_balance;Non
+940000;Cost accounts;off_balance;Non
+950000;Stock accounts;off_balance;Non
+960000;Pre-drawn costs variance accounts;off_balance;Non
+970000;Accounting difference accounts;off_balance;Non
+980000;Income statements;off_balance;Non
+990000;Internal link accounts;off_balance;Non
+999001;Cash Difference Gain;income_other;Non
+999002;Cash Difference Loss;expense;Non
+999999;Undistributed Profits/Losses;equity_unaffected;Non

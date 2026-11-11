@@ -1,0 +1,125 @@
+﻿code_syscohada;libelle_fr;usage_hint;odoo_propose;statut;odoo_candidats
+101;Capital social;apport des associés, augmentation de capital;;a_confirmer;"101100;101200;101300;101400;101800"
+111;Réserve légale;dotation à la réserve légale;111000;auto;111000
+118;Autres réserves;réserves facultatives;;a_confirmer;"118100;118800"
+121;Report à nouveau créditeur;bénéfices reportés;121000;auto;121000
+129;Report à nouveau débiteur;pertes reportées;;a_confirmer;"129100;129200"
+131;Résultat net de l'exercice : bénéfice;clôture annuelle;131000;auto;131000
+139;Résultat net de l'exercice : perte;clôture annuelle;139000;auto;139000
+162;Emprunts et dettes auprès des établissements de crédit;prêt bancaire, crédit moyen terme, remboursement du capital;162000;auto;162000
+168;Autres emprunts et dettes;prêts de tiers hors banque;;a_confirmer;"168100;168200;168300;168400;168500;168600"
+213;Logiciels;achat de logiciel durable, licence perpétuelle;;a_confirmer;"213100;213200"
+231;Bâtiments industriels, agricoles, administratifs et commerciaux;construction ou achat de local;;a_confirmer;"231100;231200;231300;231400;231500;231600"
+234;Aménagements, agencements et installations techniques;travaux d'aménagement durables, installations;;a_confirmer;"234100;234200;234300;234400;234500"
+241;Matériel et outillage industriel et commercial;outillage d'atelier, équipement lourd, machines;;a_confirmer;"241100;241200;241300;241400;241600"
+244;Matériel et mobilier de bureau;bureaux, chaises, armoires, climatiseurs;;a_confirmer;"244100;244200;244300;244400;244500;244600;244700"
+2442;Matériel informatique;ordinateurs, imprimantes, serveurs, téléphones (au-dessus du seuil d'immobilisation);244200;auto;244200
+245;Matériel de transport;véhicules de la société, motos, camions;;a_confirmer;"245100;245200;245300;245400;245500;245600;245700;245800"
+281;Amortissements des immobilisations incorporelles;dotation annuelle (écriture de fin d'exercice);;a_confirmer;"281100;281200;281300;281400;281500;281600;281700;281800"
+283;Amortissements des bâtiments, installations techniques et agencements;dotation annuelle (écriture de fin d'exercice);;a_confirmer;"283100;283200;283300;283400;283500;283700;283800"
+284;Amortissements du matériel;dotation annuelle (écriture de fin d'exercice);;a_confirmer;"284100;284200;284300;284400;284500;284600;284700;284800"
+311;Marchandises;stock de marchandises destinées à la revente (véhicules, pièces);;a_confirmer;"311100;311200"
+331;Matières consommables;stock de consommables;331000;auto;331000
+332;Fournitures d'atelier et d'usine;stock de fournitures d'atelier;332000;auto;332000
+401;Fournisseurs, dettes en compte;toute facture fournisseur à payer (contrepartie des achats);401100;role;"401100;401200;401300;401600;401700"
+404;Fournisseurs, acquisitions courantes d'immobilisations;facture d'achat d'un bien immobilisé;;a_confirmer;"404100;404200;404600;404700"
+408;Fournisseurs, factures non parvenues;charge connue, facture pas encore reçue (fin de mois);;a_confirmer;"408100;408200;408300;408600"
+409;Fournisseurs débiteurs;avance ou acompte versé à un fournisseur, avoir à recevoir;;a_confirmer;"409100;409200;409300;409400;409800"
+411;Clients;facture client à encaisser;;a_confirmer;"411100;411200;411300;411400;411500;411600;411700;411800"
+416;Clients douteux ou litigieux;créance client à risque;;a_confirmer;"416100;416200"
+4181;Clients, factures à établir;livraison faite, facture pas encore émise;418100;auto;418100
+419;Clients créditeurs;acompte ou avance reçu d'un client;;a_confirmer;"419100;419200;419400;419800"
+421;Personnel, avances et acomptes;avance sur salaire, acompte, prêt au personnel;421100;role;"421100;421200;421300"
+422;Personnel, rémunérations dues;salaires nets à payer;422000;auto;422000
+428;Personnel, charges à payer et produits à recevoir;congés payés à payer, primes à payer;;a_confirmer;"428100;428600;428700"
+431;Sécurité sociale;cotisations CNPS/CNPS dues (part salariale et patronale);;a_confirmer;"431100;431200;431300;431400;431800"
+438;Organismes sociaux, charges à payer;charges sociales à payer non encore appelées;;a_confirmer;"438100;438200;438600;438700"
+441;État, impôt sur les bénéfices;impôt sur les sociétés dû, acomptes;441000;auto;441000
+4431;État, TVA facturée sur ventes;TVA collectée sur les ventes;443100;auto;443100
+4441;État, TVA due;TVA à reverser à l'État;444100;auto;444100
+4449;État, crédit de TVA à reporter;crédit de TVA;444900;auto;444900
+4451;État, TVA récupérable sur immobilisations;TVA sur achat d'immobilisations;445100;auto;445100
+4452;État, TVA récupérable sur achats;TVA déductible sur achats de biens et marchandises;445200;auto;445200
+4454;État, TVA récupérable sur services extérieurs et autres charges;TVA déductible sur loyers, honoraires, télécoms, entretien;445400;auto;445400
+446;État, autres taxes sur chiffre d'affaires;taxes spécifiques sur le chiffre d'affaires;446000;auto;446000
+447;État, impôts retenus à la source;retenues à la source, impôt sur salaires, acomptes sur impôts;;a_confirmer;"447100;447200;447300;447400;447800"
+462;Associés, comptes courants;avance de l'associé à la société, retrait de l'associé;;a_confirmer;"462100;462600"
+4711;Débiteurs divers;créance diverse non classée ailleurs;471100;auto;471100
+4712;Créditeurs divers;dette diverse non classée ailleurs;471200;auto;471200
+476;Charges constatées d'avance;charge payée d'avance (assurance annuelle, loyer d'avance);476000;auto;476000
+477;Produits constatés d'avance;produit encaissé d'avance;477000;auto;477000
+521;Banques locales;compte bancaire de la société (un sous-compte par banque : 5211, 5212…);521001;role;"521001;521002"
+561;Crédits de trésorerie;découvert bancaire, avance à court terme;561000;auto;561000
+571;Caisse siège social;espèces en caisse, petites dépenses, décaissements en cash;571100;role;"571001;571100;571200"
+581;Régies d'avances;avance de fonds remise à un agent pour dépenses (régisseur);581000;auto;581000
+585;Virements de fonds;virement interne banque ↔ caisse, compte d'attente de virements;;a_confirmer;"585000;585001"
+601;Achats de marchandises;achats de véhicules, pièces, produits destinés à la revente;;a_confirmer;"601100;601200;601300;601400;601500;601900"
+602;Achats de matières premières et fournitures liées;matières entrant dans la production;;a_confirmer;"602100;602200;602300;602400;602500;602900"
+604;Achats stockés de matières et fournitures consommables;consommables mis en stock;;a_confirmer;"604100;604200;604300;604400;604500;604600;604700;604900"
+6051;Fournitures non stockables, eau;facture d'eau (SNEC, SODECI…);605100;auto;605100
+6052;Fournitures non stockables, électricité;facture d'électricité (ENEO, CIE…);605200;auto;605200
+6053;Fournitures non stockables, autres énergies;carburant, gasoil, essence, gaz;605300;auto;605300
+6054;Fournitures d'entretien non stockables;produits d'entretien, nettoyage;605400;auto;605400
+6055;Fournitures de bureau non stockables;papeterie, cartouches, petites fournitures de bureau;605500;auto;605500
+6056;Achats de petit matériel et outillage;petit équipement, outils, matériel en dessous du seuil d'immobilisation;605600;auto;605600
+6057;Achats d'études et prestations de services;prestation de service achetée liée à une production;605700;auto;605700
+608;Achats d'emballages;cartons, emballages;;a_confirmer;"608100;608200;608300;608500;608900"
+609;Rabais, remises et ristournes obtenus sur achats;remise obtenue d'un fournisseur (avoir);;sans_equivalent;
+611;Transports sur achats;transport de marchandises achetées, fret, transit, douane (frais accessoires);;sans_equivalent;
+612;Transports sur ventes;livraison aux clients;612000;auto;612000
+614;Transports du personnel;transport du personnel, taxis, navettes;614000;auto;614000
+618;Autres frais de transport;autres frais de transport non classés;;a_confirmer;"618100;618200;618300"
+6181;Voyages et déplacements;billets d'avion, hôtel, déplacement professionnel;618100;auto;618100
+621;Sous-traitance générale;travaux confiés à un sous-traitant;621000;auto;621000
+622;Locations et charges locatives;loyer du bureau, du garage, location de véhicule ou matériel;;a_confirmer;"622100;622200;622300;622400;622500;622600;622800"
+623;Redevances de crédit-bail et contrats assimilés;leasing, location avec option d'achat;;a_confirmer;"623200;623300;623400;623800"
+624;Entretien, réparations et maintenance;réparations bâtiment et matériel, contrat de maintenance;;a_confirmer;"624100;624200;624300;624400;624800"
+6242;Entretien et réparations des biens mobiliers;entretien et réparation des véhicules et du matériel;624200;auto;624200
+6243;Maintenance;contrats de maintenance (climatisation, ascenseur, informatique);624300;auto;624300
+625;Primes d'assurance;assurance incendie, multirisque, responsabilité;;a_confirmer;"625100;625200;625300;625400;625500;625700;625800"
+6252;Assurances matériel de transport;assurance des véhicules;625200;auto;625200
+626;Études, recherches et documentation;études, abonnements documentaires;;a_confirmer;"626100;626500;626600"
+627;Publicité, publications, relations publiques;publicité, Facebook/Google Ads, imprimés, cadeaux clients, salons;;a_confirmer;"627100;627200;627300;627400;627500;627600;627700;627800"
+6281;Frais de téléphone;forfaits téléphoniques, recharges, factures télécoms;628100;auto;628100
+6288;Autres frais de télécommunications;internet, data, abonnement fibre;628800;auto;628800
+631;Frais bancaires;commissions de tenue de compte, frais de virement, agios;;a_confirmer;"631100;631200;631300;631400;631500;631600;631700;631800"
+632;Rémunérations d'intermédiaires et de conseils;honoraires (comptable, avocat, consultant), commissions;;a_confirmer;"632200;632400;632500;632600;632700;632800"
+633;Frais de formation du personnel;formations, séminaires;633000;auto;633000
+634;Redevances pour brevets, licences, concessions et droits similaires;abonnements logiciels et cloud (Lark, Microsoft, outils IA), licences;;a_confirmer;"634200;634300;634400;634500;634600"
+635;Cotisations;adhésions, cotisations professionnelles, chambre de commerce;;a_confirmer;"635100;635800"
+637;Rémunérations de personnel extérieur à l'entité;intérim, personnel mis à disposition;;a_confirmer;"637100;637200"
+638;Autres charges externes;charges externes non classées;;a_confirmer;"638100;638200;638300;638400;638500;638800"
+6383;Réceptions;repas d'affaires, réceptions, cocktails;638300;auto;638300
+6384;Missions;frais de mission du personnel (per diem, hébergement);638400;auto;638400
+641;Impôts et taxes directs;impôts directs, taxes foncières;;a_confirmer;"641100;641200;641300;641400;641500;641800"
+6412;Patentes, licences et taxes annexes;patente, licence;641200;auto;641200
+645;Impôts et taxes indirects;taxes indirectes;645000;auto;645000
+646;Droits d'enregistrement;enregistrement, timbres, droits de mutation;;a_confirmer;"646100;646200;646300;646400;646800"
+647;Pénalités et amendes fiscales;pénalités de retard, amendes fiscales et pénales;;a_confirmer;"647100;647200;647300;647400;647800"
+651;Pertes sur créances clients et autres débiteurs;créance client irrécouvrable;;a_confirmer;"651100;651500"
+656;Pertes de change sur créances et dettes commerciales;écart de change défavorable sur opérations commerciales;656000;auto;656000
+658;Charges diverses;charges diverses non classées;;a_confirmer;"658100;658200;658300;658800"
+661;Rémunérations directes versées au personnel national;salaires bruts, primes, heures supplémentaires;;a_confirmer;"661100;661200;661300;661400;661500;661600;661700;661800"
+663;Indemnités forfaitaires versées au personnel;indemnités de transport, de logement, de caisse;;a_confirmer;"663100;663200;663300;663400;663800"
+664;Charges sociales;part patronale CNPS, cotisations sociales employeur;;a_confirmer;"664100;664200"
+668;Autres charges sociales;médecine du travail, œuvres sociales, mutuelle;;a_confirmer;"668100;668200;668300;668400;668500;668600;668700;668800"
+671;Intérêts des emprunts;intérêts d'un prêt bancaire;;a_confirmer;"671100;671200;671300;671400"
+674;Autres intérêts;autres intérêts (découvert, retard);;a_confirmer;"674100;674200;674300;674400;674500;674800"
+676;Pertes de change financières;écart de change défavorable sur opérations financières;676000;auto;676000
+681;Dotations aux amortissements d'exploitation;dotation annuelle (écriture de fin d'exercice);;a_confirmer;"681200;681300"
+691;Dotations aux provisions d'exploitation;provisions pour risques (écriture de fin d'exercice);;a_confirmer;"691100;691300;691400"
+701;Ventes de marchandises;ventes de véhicules, de pièces, de produits;;a_confirmer;"701100;701200;701300;701400;701500;701900"
+706;Services vendus;prestations facturées (main-d'œuvre, réparation, location, services);;a_confirmer;"706100;706200;706300;706400;706500;706900"
+707;Produits accessoires;produits annexes facturés aux clients;;a_confirmer;"707100;707200;707300;707400;707500;707600;707700;707800"
+711;Subventions d'exploitation;aides, subventions;711000;auto;711000
+754;Produits des cessions courantes d'immobilisations;vente d'un bien en cours d'activité;;a_confirmer;"754100;754200"
+756;Gains de change sur créances et dettes commerciales;écart de change favorable sur opérations commerciales;756000;auto;756000
+758;Produits divers;produits divers non classés;;a_confirmer;"758100;758200;758800"
+771;Intérêts de prêts et créances diverses;intérêts reçus;;a_confirmer;"771200;771300"
+776;Gains de change financiers;écart de change favorable sur opérations financières;776000;auto;776000
+781;Transferts de charges d'exploitation;remboursement de frais, transfert de charges;781000;auto;781000
+791;Reprises de provisions d'exploitation;reprise de provision (fin d'exercice);;a_confirmer;"791100;791300;791400"
+831;Charges HAO constatées;charges exceptionnelles, hors activité ordinaire;831000;auto;831000
+841;Produits HAO constatés;produits exceptionnels, hors activité ordinaire;841000;auto;841000
+891;Impôts sur les bénéfices de l'exercice;impôt sur les sociétés de l'exercice;;a_confirmer;"891100;891200;891300"
+895;Impôt minimum forfaitaire;impôt minimum forfaitaire (IMF/minimum de perception);895000;auto;895000

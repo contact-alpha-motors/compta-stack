@@ -1,0 +1,89 @@
+# Compose de PRODUCTION (Portainer / VPS) — agent comptable SYSCOHADA.
+# Démarre : db (Postgres) + bot (Lark, connexion longue) + backup (pg_dump nocturne).
+# PAS d'Adminer ni de service CLI ici. Le bot n'a pas de profil => il démarre avec la stack.
+# Les secrets arrivent en VARIABLES D'ENVIRONNEMENT du stack Portainer (jamais dans le repo).
+
+name: compta
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-compta}
+      POSTGRES_USER: ${DB_ADMIN_USER:-compta_admin}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASSWORD:?définir DB_ADMIN_PASSWORD}
+      AGENT_DB_PASSWORD: ${AGENT_DB_PASSWORD:?définir AGENT_DB_PASSWORD}
+      STUDIO_DB_PASSWORD: ${STUDIO_DB_PASSWORD:?définir STUDIO_DB_PASSWORD}
+      TZ: ${TZ:-Africa/Douala}
+      PGTZ: ${TZ:-Africa/Douala}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d:ro   # exécuté une seule fois, au tout premier démarrage
+    networks: [internal]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  bot:
+    build: ./agent
+    command: ["lark", "serve"]
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://agent_app:${AGENT_DB_PASSWORD}@db:5432/${DB_NAME:-compta}
+      INVOICES_DIR: /data/invoices
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:?définir OPENROUTER_API_KEY}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://openrouter.ai/api/v1}
+      EXTRACT_MODEL: ${EXTRACT_MODEL:-google/gemini-3.8-flash}
+      CATEGORIZE_MODEL: ${CATEGORIZE_MODEL:-google/gemini-3.8-flash}
+      CURRENCY: XOF
+      # Assistant Caisse (ordre de virement + PDF) — URL publique par défaut (pas de réseau partagé requis)
+      SUPABASE_URL: ${SUPABASE_URL:-}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:-}
+      API_BASE_URL: ${API_BASE_URL:-https://assistante.alphamotors-cameroun.fyi/api}
+      BOT_EMAIL: ${BOT_EMAIL:-}
+      BOT_PASSWORD: ${BOT_PASSWORD:-}
+      # Lark (un seul conteneur sert les 2 espaces). Domaine international par défaut.
+      LARK_APP_ID: ${LARK_APP_ID:-}
+      LARK_APP_SECRET: ${LARK_APP_SECRET:-}
+      LARK_APP_ID_2: ${LARK_APP_ID_2:-}
+      LARK_APP_SECRET_2: ${LARK_APP_SECRET_2:-}
+      LARK_REPORT_CHAT_ID: ${LARK_REPORT_CHAT_ID:-}
+      LARK_DOMAIN: ${LARK_DOMAIN:-https://open.larksuite.com}
+      TZ: ${TZ:-Africa/Douala}
+    volumes:
+      - invoices:/data/invoices
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+
+  backup:
+    image: prodrigestivill/postgres-backup-local:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_DB: ${DB_NAME:-compta}
+      POSTGRES_USER: ${DB_ADMIN_USER:-compta_admin}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASSWORD}
+      SCHEDULE: "0 2 * * *"            # chaque nuit à 02:00 (TZ du conteneur)
+      BACKUP_KEEP_DAYS: "14"
+      BACKUP_KEEP_WEEKS: "8"
+      BACKUP_KEEP_MONTHS: "12"
+      TZ: ${TZ:-Africa/Douala}
+    volumes:
+      - backups:/backups
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+
+volumes:
+  db_data:
+  backups:
+  invoices:
+
+networks:
+  internal:

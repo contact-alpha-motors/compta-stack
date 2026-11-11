@@ -1,0 +1,125 @@
+# Stack légère pour l'agent comptable SYSCOHADA
+# Conteneurs : db (Postgres) + studio (Adminer, lecture seule) + backup (pg_dump nocturne)
+# Le conteneur "agent" sera ajouté quand le service sera prêt (bloc commenté en bas).
+
+name: compta
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-compta}
+      POSTGRES_USER: ${DB_ADMIN_USER:-compta_admin}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASSWORD:?mettre DB_ADMIN_PASSWORD dans .env}
+      AGENT_DB_PASSWORD: ${AGENT_DB_PASSWORD:?mettre AGENT_DB_PASSWORD dans .env}
+      STUDIO_DB_PASSWORD: ${STUDIO_DB_PASSWORD:?mettre STUDIO_DB_PASSWORD dans .env}
+      TZ: ${TZ:-Africa/Douala}
+      PGTZ: ${TZ:-Africa/Douala}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      # Exécutés une seule fois, au tout premier démarrage (base vide), dans l'ordre alphabétique
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+    networks: [internal]
+    # Pas de "ports:" => Postgres n'est PAS accessible depuis internet
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  studio:
+    image: adminer:4
+    restart: unless-stopped
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+      ADMINER_DESIGN: pepa-linha
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+    # Écoute uniquement en local sur le VPS : à publier via votre reverse proxy AVEC authentification.
+    ports:
+      - "127.0.0.1:${STUDIO_PORT:-8080}:8080"
+    # Connexion dans Adminer : serveur "db", utilisateur "studio_ro", base "compta" (lecture seule)
+
+  backup:
+    image: prodrigestivill/postgres-backup-local:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_DB: ${DB_NAME:-compta}
+      POSTGRES_USER: ${DB_ADMIN_USER:-compta_admin}
+      POSTGRES_PASSWORD: ${DB_ADMIN_PASSWORD}
+      SCHEDULE: "0 2 * * *"          # chaque nuit à 02:00 (heure du conteneur, voir TZ)
+      BACKUP_KEEP_DAYS: "14"
+      BACKUP_KEEP_WEEKS: "8"
+      BACKUP_KEEP_MONTHS: "12"
+      TZ: ${TZ:-Africa/Douala}
+    volumes:
+      - backups:/backups
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+
+  # Outil en ligne de commande de l'agent : ne démarre PAS avec la stack (profil "tools").
+  # Exemple :  docker compose run --rm -v "$PWD/inbox:/inbox:ro" agent ingest /inbox/facture1.jpg
+  # (le futur bot Lark tournera dans ce même conteneur, en service permanent)
+  agent:
+    build: ./agent
+    profiles: ["tools"]
+    environment: &agent_env
+      DATABASE_URL: postgresql://agent_app:${AGENT_DB_PASSWORD}@db:5432/${DB_NAME:-compta}
+      INVOICES_DIR: /data/invoices
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://openrouter.ai/api/v1}
+      EXTRACT_MODEL: ${EXTRACT_MODEL:-google/gemini-3.8-flash}
+      CATEGORIZE_MODEL: ${CATEGORIZE_MODEL:-google/gemini-3.8-flash}
+      CURRENCY: XOF
+      # Mini-app de virements « Assistant Caisse » (ordre de virement + PDF) — voir GUIDE_BOT_VIREMENTS.md
+      SUPABASE_URL: ${SUPABASE_URL:-}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:-}
+      API_BASE_URL: ${API_BASE_URL:-http://app-assistante/api}
+      BOT_EMAIL: ${BOT_EMAIL:-}
+      BOT_PASSWORD: ${BOT_PASSWORD:-}
+      TZ: ${TZ:-Africa/Douala}
+    volumes:
+      - invoices:/data/invoices
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+
+  # Bot Lark — service PERMANENT en connexion longue (aucune URL publique à exposer).
+  # Démarrage opt-in :  docker compose --profile bot up -d bot
+  # Prérequis : LARK_APP_ID/SECRET dans .env + côté console Lark, abonnement aux événements
+  # en mode « connexion longue ». Un espace Lark = une instance (dupliquer ce service avec l'autre app).
+  # Pour joindre l'Assistant Caisse, ajouter aussi ce service à son réseau Docker (ex. « proxy »).
+  bot:
+    build: ./agent
+    profiles: ["bot"]
+    command: ["lark", "serve"]
+    restart: unless-stopped
+    environment:
+      <<: *agent_env
+      # Le même conteneur sert TOUS les espaces Lark (une connexion longue par app, un thread chacun).
+      LARK_APP_ID: ${LARK_APP_ID:-}
+      LARK_APP_SECRET: ${LARK_APP_SECRET:-}
+      LARK_APP_ID_2: ${LARK_APP_ID_2:-}
+      LARK_APP_SECRET_2: ${LARK_APP_SECRET_2:-}
+      LARK_REPORT_CHAT_ID: ${LARK_REPORT_CHAT_ID:-}
+    volumes:
+      - invoices:/data/invoices
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+
+volumes:
+  db_data:
+  backups:
+  invoices:
+
+networks:
+  internal:
